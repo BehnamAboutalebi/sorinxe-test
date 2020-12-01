@@ -15,9 +15,6 @@ export default function Index() {
                             <p className="text-4xl text-center">
                                 <span role="img" aria-label="love"></span>
                             </p>
-                            <h3 className="font-semibold text-3xl">
-                                سورین اکسچنج نماینده رسمی هات فارکس در ایران
-                            </h3>
                             <p className="text-gray-600 text-lg leading-relaxed mt-4 mb-4">
                                 مجموعه سورین صرفا به عنوان پشتیبانی مالی و فنی
                                 کاربران ایرانی می‌باشد. ساعت کاری از ۱۰ صبح الی
