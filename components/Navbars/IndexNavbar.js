@@ -22,12 +22,12 @@ export default function Navbar(props) {
                         <button
                             className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
                             type="button"
-                            onClick={() => setNavbarOpen(!navbarOpen)}
+                            onClick={() => {}}
                         >
                             <i className="fas fa-bars"></i>
                         </button>
                         <span className="italic text-s text-white">
-                            Digital Currencies
+                            Digital Trading
                         </span>
                     </div>
                     <div
