@@ -13,7 +13,7 @@ export default function Navbar(props) {
                     <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
                         <Link href="/">
                             <a
-                                className="text-red- text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase"
+                                className="text-red-500 text-3xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase"
                                 href="#pablo"
                             >
                                 SORINXE
@@ -26,6 +26,9 @@ export default function Navbar(props) {
                         >
                             <i className="fas fa-bars"></i>
                         </button>
+                        <span className="italic text-xs">
+                            Digital Currencies
+                        </span>
                     </div>
                     <div
                         className={
@@ -34,17 +37,6 @@ export default function Navbar(props) {
                         }
                         id="example-navbar-warning"
                     >
-                        <ul className="flex flex-col lg:flex-row list-none mr-auto">
-                            <li className="flex items-center">
-                                <a
-                                    className="hover:text-gray-600 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                                    href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-index-navbar"
-                                >
-                                    <i className="text-gray-500 far fa-file-alt text-lg leading-lg mr-2" />{' '}
-                                    Docs
-                                </a>
-                            </li>
-                        </ul>
                         <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
                             <li className="flex items-center">
                                 <IndexDropdown />
