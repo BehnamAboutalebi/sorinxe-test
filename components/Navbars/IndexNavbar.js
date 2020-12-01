@@ -16,7 +16,9 @@ export default function Navbar(props) {
                                 className="text-red-500 text-3xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase"
                                 href="#pablo"
                             >
-                                SORINXE
+                                <img
+                                    src={require('assets/img/hfmarkets_logo.png')}
+                                ></img>
                             </a>
                         </Link>
                         <button
@@ -26,8 +28,8 @@ export default function Navbar(props) {
                         >
                             <i className="fas fa-bars"></i>
                         </button>
-                        <span className="italic text-s text-white">
-                            Digital Trading
+                        <span className="italic text-s text-white text-right">
+                            {`صرفا به عنوان پشتیبانی مالی و فنی کاربران ایرانی می‌باشد SORINXE مجموعه`}
                         </span>
                     </div>
                     <div
